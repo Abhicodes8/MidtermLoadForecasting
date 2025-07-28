@@ -3,14 +3,12 @@ This repository provides a comprehensive solution for mid- to long-term electric
 
 ## Objective
 The goal of this project is to improve the accuracy and interpretability of electricity load forecasts for grid planning and energy resource management. By leveraging advanced machine learning models (XGBoost, LSTM, etc) and SHAP-based explainability, this pipeline enables users to:
-
-Predict electricity demand from several hours up to months in advance.
-
-Analyze feature importance and temporal patterns as well as maintaing explainability at the same time. 
+1. Predict electricity demand from several hours up to months in advance.
+2. Analyze feature importance and temporal patterns as well as maintaing explainability at the same time. 
 
 ## Setup
 1. Clone the Repository
-cd load-forecasting
+Use: cd load-forecasting
 2. Set Up a Virtual Environment 
 3. Install Dependencies
 
@@ -36,13 +34,10 @@ This will:
 Optionally generate SHAP plots and save them
 
 ## Customize Settings
-You can modify parameters inside load_forecasting.py:
-
-Forecast horizon (1 day to 6 months)
-
-Model type (XGBoost, LSTM, LinearRegression)
-
-Feature inclusion (temperature lags, rolling mean, holidays)
+You can modify these parameters inside load_forecasting.py:
+1. Forecast horizon (1 day to 6 months)
+2. Model type (XGBoost, LSTM, LinearRegression)
+3. Feature inclusion (temperature lags, rolling mean, holidays)
 
 ## Dependencies
 Key Libraries Include:
