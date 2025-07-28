@@ -72,4 +72,19 @@ Inside the script, you can modify:
 
 
 ## 6. Building Paper 
+Once you have made the required plots, you can build the paper with:
+
+pdflatex main.tex
+bibtex main
+pdflatex main.tex
+pdflatex main.tex
+
+and you will then be able to read it in the PDF file
+main.pdf, which will be located in the
+MidtermLoadForecasting/Bhupatiraju_Ahn_SourceCode_Paper/ directory.
+
+You can also view the source and assets (figures, bibliography, class files) directly in the GitHub folder:
+MidtermLoadForecasting/Bhupatiraju_Ahn_SourceCode_Paper/
+
+This paper describes the methodology and results of the load forecasting project, including model comparisons and SHAP-based interpretability.
 
