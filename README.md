@@ -13,7 +13,6 @@ Analyze feature importance and temporal patterns as well as maintaing explainabi
 cd load-forecasting
 2. Set Up a Virtual Environment 
 3. Install Dependencies
-pip install -r requirements.txt
 
 ## Program usage
 
